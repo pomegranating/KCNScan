@@ -1,0 +1,43 @@
+{
+  "modules": [
+    {
+      "package_id": 1,
+      "module_name": "Big-O Notation",
+      "description": "Learn to manage space and time complexity by practicing how to make the right algorithm and data structure decisions."
+    },
+    {
+      "package_id": 1,
+      "module_name": "Data Structures",
+      "description": "Solve problems that are commonly asked in Python coding interviews related to common data structures."
+    },
+    {
+      "package_id": 1,
+      "module_name": "Algorithms",
+      "description": "Learn about commonly-asked programming algorithms, such as greedy algorithms, the divide-and-conquer algorithm, and dynamic programming."
+    },
+    {
+      "package_id": 1,
+      "module_name": "Recursion",
+      "description": "Brush up your skills to solve problems using recursion"
+    },
+    {
+      "package_id": 1,
+      "module_name": "Coding Interview Patterns",
+      "description": "Learn essential coding patterns to answer problems and prepare for tech companies' interviews."
+    },
+    {
+      "package_id": 1,
+      "module_name": "Object-Oriented Design",
+      "description": "Brush up on your OOD skills by solving real-life system design problems."
+    },
+    {
+      "package_id": 1,
+      "module_name": "Concurrency",
+      "description": "Learn multithreading and concurrency concepts with the help of some related interview problems."
+    },
+    {
+      "package_id": 2,
+      "module_name": "Data Structures and Algorithms in Python",
+      "description": "A detailed review of some of the most common data structures and algorithms, such as stack, linked lists, doubly linked lists, binary trees, binary search trees, and so on."
+    }
+  ]}

@@ -1,0 +1,323 @@
+{
+  "topics": [
+    {
+      "module_id": 1,
+      "name": "Complexity Problems"
+    },
+    {
+      "module_id": 1,
+      "name": "Conclusions"
+    },
+    {
+      "module_id": 2,
+      "name": "Introduction to Lists"
+    },
+    {
+      "module_id": 2,
+      "name": "Introduction to Linked List"
+    },
+    {
+      "module_id": 2,
+      "name": "Introduction to Stacks and Queues"
+    },
+    {
+      "module_id": 2,
+      "name": "Introduction to Graphs"
+    },
+    {
+      "module_id": 2,
+      "name": "Introduction to Trees"
+    },
+    {
+      "module_id": 2,
+      "name": "Trie"
+    },
+    {
+      "module_id": 2,
+      "name": "Introduction to Heap"
+    },
+    {
+      "module_id": 2,
+      "name": "Introduction to Hashing"
+    },
+    {
+      "module_id": 2,
+      "name": "Conclusion"
+    },
+    {
+      "module_id": 3,
+      "name": "Algorithmic Paradigms"
+    },
+    {
+      "module_id": 3,
+      "name": "Sorting and Searching"
+    },
+    {
+      "module_id": 3,
+      "name": "Graph Algorithms"
+    },
+    {
+      "module_id": 3,
+      "name": "Greedy Algorithms"
+    },
+    {
+      "module_id": 3,
+      "name": "Dynamic Programming"
+    },
+    {
+      "module_id": 3,
+      "name": "Divide and Conquer"
+    },
+    {
+      "module_id": 3,
+      "name": "Conclusion"
+    },
+    {
+      "module_id": 4,
+      "name": "Prelude"
+    },
+    {
+      "module_id": 4,
+      "name": "Recursion Problems"
+    },
+    {
+      "module_id": 4,
+      "name": "Conclusion"
+    },
+    {
+      "module_id": 5,
+      "name": "Sliding Window"
+    },
+    {
+      "module_id": 5,
+      "name": "Two Pointers"
+    },
+    {
+      "module_id": 5,
+      "name": "Fast and Slow Pointers"
+    },
+    {
+      "module_id": 5,
+      "name": "Merge Intervals"
+    },
+    {
+      "module_id": 5,
+      "name": "In-place Reversal of a Linked List"
+    },
+    {
+      "module_id": 5,
+      "name": "Two Heaps"
+    },
+    {
+      "module_id": 5,
+      "name": "K-way merge"
+    },
+    {
+      "module_id": 5,
+      "name": "Top K Elements"
+    },
+    {
+      "module_id": 5,
+      "name": "Modified Binary Search"
+    },
+    {
+      "module_id": 5,
+      "name": "Subsets"
+    },
+    {
+      "module_id": 5,
+      "name": "Greedy Techniques"
+    },
+    {
+      "module_id": 5,
+      "name": "Backtracking"
+    },
+    {
+      "module_id": 5,
+      "name": "Dynamic Programming"
+    },
+    {
+      "module_id": 5,
+      "name": "Cyclic Sort"
+    },
+    {
+      "module_id": 5,
+      "name": "Topological Sort"
+    },
+    {
+      "module_id": 5,
+      "name": "Matrices"
+    },
+    {
+      "module_id": 5,
+      "name": "Stacks"
+    },
+    {
+      "module_id": 5,
+      "name": "Graphs"
+    },
+    {
+      "module_id": 5,
+      "name": "Tree Depth First Search"
+    },
+    {
+      "module_id": 5,
+      "name": "Tree Breadth First Search"
+    },
+    {
+      "module_id": 5,
+      "name": "Trie"
+    },
+    {
+      "module_id": 5,
+      "name": "Hash Maps"
+    },
+    {
+      "module_id": 5,
+      "name": "Knowing What To Track"
+    },
+    {
+      "module_id": 5,
+      "name": "Union Find"
+    },
+    {
+      "module_id": 5,
+      "name": "Custom Data Structures"
+    },
+    {
+      "module_id": 5,
+      "name": "Bitwise Manipulation"
+    },
+    {
+      "module_id": 5,
+      "name": "Challenge Yourself"
+    },
+    {
+      "module_id": 6,
+      "name": "Cornerstones of Object-Oriented Programming"
+    },
+    {
+      "module_id": 6,
+      "name": "Object-Oriented Design"
+    },
+    {
+      "module_id": 6,
+      "name": "Object-Oriented Design Principles"
+    },
+    {
+      "module_id": 6,
+      "name": "Design Patterns"
+    },
+    {
+      "module_id": 6,
+      "name": "Real-World Design Problems"
+    },
+    {
+      "module_id": 6,
+      "name": "Designing a Parking Lot"
+    },
+    {
+      "module_id": 6,
+      "name": "Designing an Elevator System"
+    },
+    {
+      "module_id": 6,
+      "name": "Designing a Library Management System"
+    },
+    {
+      "module_id": 6,
+      "name": "Designing a Vending Machine"
+    },
+    {
+      "module_id": 6,
+      "name": "Designing a Movie Ticket Booking System"
+    },
+    {
+      "module_id": 6,
+      "name": "Conclusion"
+    },
+    {
+      "module_id": 7,
+      "name": "Prelude"
+    },
+    {
+      "module_id": 7,
+      "name": "Basics of Concurrency"
+    },
+    {
+      "module_id": 7,
+      "name": "Threading Module"
+    },
+    {
+      "module_id": 7,
+      "name": "Multiprocessing"
+    },
+    {
+      "module_id": 7,
+      "name": "Concurrent Package"
+    },
+    {
+      "module_id": 7,
+      "name": "Async.io"
+    },
+    {
+      "module_id": 7,
+      "name": "Global Interpreter Lock"
+    },
+    {
+      "module_id": 7,
+      "name": "Practice Problems"
+    },
+    {
+      "module_id": 7,
+      "name": "Conclusion"
+    },
+    {
+      "module_id": 8,
+      "name": "Built-in Data Structures"
+    },
+    {
+      "module_id": 8,
+      "name": "Stack"
+    },
+    {
+      "module_id": 8,
+      "name": "Singly Linked Lists"
+    },
+    {
+      "module_id": 8,
+      "name": "Circular Linked Lists"
+    },
+    {
+      "module_id": 8,
+      "name": "Doubly Linked Lists"
+    },
+    {
+      "module_id": 8,
+      "name": "Arrays"
+    },
+    {
+      "module_id": 8,
+      "name": "Binary Trees"
+    },
+    {
+      "module_id": 8,
+      "name": "Binary Search Trees"
+    },
+    {
+      "module_id": 8,
+      "name": "Binary Search"
+    },
+    {
+      "module_id": 8,
+      "name": "Recursion"
+    },
+    {
+      "module_id": 8,
+      "name": "String Processing"
+    },
+    {
+      "module_id": 8,
+      "name": "Conclusion"
+    }
+  ]}

@@ -1,0 +1,286 @@
+{
+  "counties": [
+    {
+      "country_id": 113,
+      "name": "Mombasa",
+      "code": 1,
+      "capital": "Mombasa City"
+    },
+    {
+      "country_id": 113,
+      "name": "Kwale",
+      "code": 2,
+      "capital": "Kwale"
+    },
+    {
+      "country_id": 113,
+      "name": "Kilifi",
+      "code": 3,
+      "capital": "Kilifi"
+    },
+    {
+      "country_id": 113,
+      "name": "Tana River",
+      "code": 4,
+      "capital": "Hola"
+    },
+    {
+      "country_id": 113,
+      "name": "Lamu",
+      "code": 5,
+      "capital": "Lamu"
+    },
+    {
+      "country_id": 113,
+      "name": "Taita-Taveta",
+      "code": 6,
+      "capital": "Voi"
+    },
+    {
+      "country_id": 113,
+      "name": "Garissa",
+      "code": 7,
+      "capital": "Garissa"
+    },
+    {
+      "country_id": 113,
+      "name": "Wajir",
+      "code": 8,
+      "capital": "Wajir"
+    },
+    {
+      "country_id": 113,
+      "name": "Mandera",
+      "code": 9,
+      "capital": "Mandera"
+    },
+    {
+      "country_id": 113,
+      "name": "Marsabit",
+      "code": 10,
+      "capital": "Marsabit"
+    },
+    {
+      "country_id": 113,
+      "name": "Isiolo",
+      "code": 11,
+      "capital": "Isiolo"
+    },
+    {
+      "country_id": 113,
+      "name": "Meru",
+      "code": 12,
+      "capital": "Meru"
+    },
+    {
+      "country_id": 113,
+      "name": "Tharaka-Nithi",
+      "code": 13,
+      "capital": "Chuka"
+    },
+    {
+      "country_id": 113,
+      "name": "Embu",
+      "code": 14,
+      "capital": "Embu"
+    },
+    {
+      "country_id": 113,
+      "name": "Kitui",
+      "code": 15,
+      "capital": "Kitui"
+    },
+    {
+      "country_id": 113,
+      "name": "Machakos",
+      "code": 16,
+      "capital": "Machakos"
+    },
+    {
+      "country_id": 113,
+      "name": "Makueni",
+      "code": 17,
+      "capital": "Wote"
+    },
+    {
+      "country_id": 113,
+      "name": "Nyandarua",
+      "code": 18,
+      "capital": "Ol Kalou"
+    },
+    {
+      "country_id": 113,
+      "name": "Nyeri",
+      "code": 19,
+      "capital": "Nyeri"
+    },
+    {
+      "country_id": 113,
+      "name": "Kirinyaga",
+      "code": 20,
+      "capital": "Kerugoya/Kutus"
+    },
+    {
+      "country_id": 113,
+      "name": "Murang'a",
+      "code": 21,
+      "capital": "Murang'a"
+    },
+    {
+      "country_id": 113,
+      "name": "Kiambu",
+      "code": 22,
+      "capital": "Kiambu"
+    },
+    {
+      "country_id": 113,
+      "name": "Turkana",
+      "code": 23,
+      "capital": "Lodwar"
+    },
+    {
+      "country_id": 113,
+      "name": "West Pokot",
+      "code": 24,
+      "capital": "Kapenguria"
+    },
+    {
+      "country_id": 113,
+      "name": "Samburu",
+      "code": 25,
+      "capital": "Maralal"
+    },
+    {
+      "country_id": 113,
+      "name": "Trans-Nzoia",
+      "code": 26,
+      "capital": "Kitale"
+    },
+    {
+      "country_id": 113,
+      "name": "Uasin Gishu",
+      "code": 27,
+      "capital": "Eldoret"
+    },
+    {
+      "country_id": 113,
+      "name": "Elgeyo-Marakwet",
+      "code": 28,
+      "capital": "Iten"
+    },
+    {
+      "country_id": 113,
+      "name": "Nandi",
+      "code": 29,
+      "capital": "Kapsabet"
+    },
+    {
+      "country_id": 113,
+      "name": "Baringo",
+      "code": 30,
+      "capital": "Kabarnet"
+    },
+    {
+      "country_id": 113,
+      "name": "Laikipia",
+      "code": 31,
+      "capital": "Rumuruti"
+    },
+    {
+      "country_id": 113,
+      "name": "Nakuru",
+      "code": 32,
+      "capital": "Nakuru"
+    },
+    {
+      "country_id": 113,
+      "name": "Narok",
+      "code": 33,
+      "capital": "Narok"
+    },
+    {
+      "country_id": 113,
+      "name": "Kajiado",
+      "code": 34,
+      "capital": "Kajiado"
+    },
+    {
+      "country_id": 113,
+      "name": "Kericho",
+      "code": 35,
+      "capital": "Kericho"
+    },
+    {
+      "country_id": 113,
+      "name": "Bomet",
+      "code": 36,
+      "capital": "Bomet"
+    },
+    {
+      "country_id": 113,
+      "name": "Kakamega",
+      "code": 37,
+      "capital": "Kakamega"
+    },
+    {
+      "country_id": 113,
+      "name": "Vihiga",
+      "code": 38,
+      "capital": "Vihiga"
+    },
+    {
+      "country_id": 113,
+      "name": "Bungoma",
+      "code": 39,
+      "capital": "Bungoma"
+    },
+    {
+      "country_id": 113,
+      "name": "Busia",
+      "code": 40,
+      "capital": "Busia"
+    },
+    {
+      "country_id": 113,
+      "name": "Siaya",
+      "code": 41,
+      "capital": "Siaya"
+    },
+    {
+      "country_id": 113,
+      "name": "Kisumu",
+      "code": 42,
+      "capital": "Kisumu"
+    },
+    {
+      "country_id": 113,
+      "name": "Homa Bay",
+      "code": 43,
+      "capital": "Homa Bay"
+    },
+    {
+      "country_id": 113,
+      "name": "Migori",
+      "code": 44,
+      "capital": "Migori"
+    },
+    {
+      "country_id": 113,
+      "name": "Kisii",
+      "code": 45,
+      "capital": "Kisii"
+    },
+    {
+      "country_id": 113,
+      "name": "Nyamira",
+      "code": 46,
+      "capital": "Nyamira"
+    },
+    {
+      "country_id": 113,
+      "name": "Nairobi",
+      "code": 47,
+      "capital": "Nairobi City"
+    }
+  ]
+}

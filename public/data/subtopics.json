@@ -1,0 +1,2929 @@
+{
+  "subtopics": [
+    {
+      "topic_id": 1,
+      "name": "Introduction to Asymptotic Analysis and Big O"
+    },
+    {
+      "topic_id": 1,
+      "name": "Other Common Notations and Why Big O Trumps Them"
+    },
+    {
+      "topic_id": 1,
+      "name": "Useful Formulas"
+    },
+    {
+      "topic_id": 1,
+      "name": "Common Complexity Scenarios"
+    },
+    {
+      "topic_id": 1,
+      "name": "Challenge: Big O of Nested Loop with Addition"
+    },
+    {
+      "topic_id": 1,
+      "name": "Challenge: Big O of Nested Loop with Subtraction"
+    },
+    {
+      "topic_id": 1,
+      "name": "Challenge: Big O of Nested Loop with Multiplication"
+    },
+    {
+      "topic_id": 1,
+      "name": "Challenge: Nested Loop with Multiplication (Basic)"
+    },
+    {
+      "topic_id": 1,
+      "name": "Challenge: Nested Loop with Multiplication (Intermediate)"
+    },
+    {
+      "topic_id": 1,
+      "name": "Challenge: Nested Loop with Multiplication (Advanced)"
+    },
+    {
+      "topic_id": 1,
+      "name": "Challenge: Nested Loop with Multiplication (Pro)"
+    },
+    {
+      "topic_id": 2,
+      "name": "Final Remarks"
+    },
+    {
+      "topic_id": 3,
+      "name": "Lists"
+    },
+    {
+      "topic_id": 3,
+      "name": "Arrays"
+    },
+    {
+      "topic_id": 3,
+      "name": "Lists vs Arrays in Python"
+    },
+    {
+      "topic_id": 3,
+      "name": "Challenge: Remove Even Integers from Lists"
+    },
+    {
+      "topic_id": 3,
+      "name": "Challenge: Merge Two Sorted Lists"
+    },
+    {
+      "topic_id": 3,
+      "name": "Challenge: Find Two Numbers that Add up to 'K'"
+    },
+    {
+      "topic_id": 3,
+      "name": "Challenge: List of All Products of All Elements"
+    },
+    {
+      "topic_id": 3,
+      "name": "Challenge: Find Minimum Value in List"
+    },
+    {
+      "topic_id": 3,
+      "name": "Challenge: First Non-Repeating Integer in a List"
+    },
+    {
+      "topic_id": 3,
+      "name": "Challenge: Find Second Maximum Value in a List"
+    },
+    {
+      "topic_id": 3,
+      "name": "Challenge: Right Rotate List"
+    },
+    {
+      "topic_id": 3,
+      "name": "Challenge: Rearrange Positive & Negative Values"
+    },
+    {
+      "topic_id": 3,
+      "name": "Challenge: Rearrange Sorted List in Max/Min Form"
+    },
+    {
+      "topic_id": 3,
+      "name": "Challenge: Maximum Sum Sublist"
+    },
+    {
+      "topic_id": 3,
+      "name": "Lists Quiz: Test your understanding of Lists"
+    },
+    {
+      "topic_id": 4,
+      "name": "Singly Linked Lists (SLL)"
+    },
+    {
+      "topic_id": 4,
+      "name": "Linked Lists vs. Lists"
+    },
+    {
+      "topic_id": 4,
+      "name": "Basic Linked List Operations"
+    },
+    {
+      "topic_id": 4,
+      "name": "Singly Linked List Insertion"
+    },
+    {
+      "topic_id": 4,
+      "name": "Challenge: Insertion at Tail"
+    },
+    {
+      "topic_id": 4,
+      "name": "Search in a Singly Linked List"
+    },
+    {
+      "topic_id": 4,
+      "name": "Singly Linked List Deletion"
+    },
+    {
+      "topic_id": 4,
+      "name": "Challenge: Deletion by Value"
+    },
+    {
+      "topic_id": 4,
+      "name": "Doubly Linked Lists (DLL)"
+    },
+    {
+      "topic_id": 4,
+      "name": "Singly Linked List vs. Doubly Linked Lists "
+    },
+    {
+      "topic_id": 4,
+      "name": "Challenge: Find the Length of a Linked List"
+    },
+    {
+      "topic_id": 4,
+      "name": "Challenge: Find Middle Node of a Linked List"
+    },
+    {
+      "topic_id": 4,
+      "name": "Challenge: Remove Duplicates from a Linked List"
+    },
+    {
+      "topic_id": 4,
+      "name": "Challenge: Union & Intersection of Linked List"
+    },
+    {
+      "topic_id": 4,
+      "name": "Challenge: Return the Nth Node from End"
+    },
+    {
+      "topic_id": 4,
+      "name": "Linked Lists Quiz: Test your understanding of Linked Lists"
+    },
+    {
+      "topic_id": 5,
+      "name": "What is a Stack?"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "Stack (Implementation)"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "What is a Queue?"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "Queue (Implementation)"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "Challenge: Generate Binary Numbers from 1 to n using a Queue"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "Challenge: Implement Two Stacks Using One List"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "Challenge: Reversing First k Elements of Queue"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "Challenge: Implement a Queue Using Stacks"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "Challenge: Sort Values in a Stack"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "Challenge: Evaluate Postfix Expression Using a Stack"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "Challenge: Next Greater Element Using a Stack"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "Challenge: Check Balanced Parentheses Using Stack"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "Challenge: min( ) Function Using a Stack"
+    },
+    
+    {
+      "topic_id": 5,
+      "name": "Stack/Queue Quiz: Test your understanding of Stack/Queue"
+    },   
+      
+      
+    {
+      "topic_id": 6,
+      "name": "What is a Graph?"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Types of Graphs"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Representation of Graphs"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Graph Implementation"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Complexities of Graph Operations"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "What is a Bipartite Graph?"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Graph Traversal Algorithms"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Challenge: Implement Breadth First Search"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Challenge: Implement Depth First Search"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Challenge: Detect Cycle in a Directed Graph"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Challenge: Find a \"Mother Vertex\" in a Directed Graph"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Challenge: Count Number of Edges in an Undirected Graph"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Challenge: Check if a Path Exists Between Two Vertices"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Challenge: Check if a Given Undirected Graph is Tree or not?"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Challenge: Find the Shortest Path Between Two Vertices"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Challenge: Remove Edge"
+    },
+      
+    {
+      "topic_id": 6,
+      "name": "Graph Quiz: Test your understanding of Graphs"
+    },
+       
+       
+       
+    {
+      "topic_id": 7,
+      "name": "Trees and their Basic Properties!"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "What makes a tree 'balanced'?"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "What is a Binary Tree?"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "More on Complete Binary Trees"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Skewed Binary Trees"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "What is a Binary Search Tree (BST)?"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Implementing a Binary Search Tree in Python"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Binary Search Tree Insertion"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Binary Search Tree Insertion (Implementation)"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Searching in a Binary Search Tree (Implementation)"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Deletion in a Binary Search Tree"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Deletion in a Binary Search Tree (Implementation)"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Pre-Order Traversal"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Post-Order Traversal"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "In-Order Traversal"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "What is an AVL Tree?"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "AVL Insertion"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "AVL Deletion"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "What is a Red-Black Tree?"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Red-Black Tree Insertion"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Red-Black Tree Deletion"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "What is a 2-3 Tree?"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "2-3 Insertion"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "2-3 Deletion (Case #1)"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "2-3 Deletion (Case #2)"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "2-3-4 Trees"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Overview of Trees"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Challenge: Find minimum value in Binary Search Tree"
+    },
+       
+    {
+      "topic_id": 7,
+      "name": "Challenge: Find kth maximum value in Binary Search Tree"
+    },
+    {
+      "topic_id": 7,
+      "name": "Challenge: Find Ancestors of a given node in a BST"
+    },
+    {
+      "topic_id": 7,
+      "name": "Challenge: Find the Height of a BST"
+    },
+    {
+      "topic_id": 7,
+      "name": "Challenge: Find Nodes at \"k\" distance from the Root"
+    },
+    {
+      "topic_id": 7,
+      "name": "Trees Quiz: Test your understanding of Trees"
+    },
+
+    {
+      "topic_id": 8,
+      "name": "What is a Trie?"
+    },
+    {
+      "topic_id": 8,
+      "name": "Structure of a Trie"
+    },
+    {
+      "topic_id": 8,
+      "name": "Insertion in a Trie"
+    },
+    {
+      "topic_id": 8,
+      "name": "Search in a Trie"
+    },
+    {
+      "topic_id": 8,
+      "name": "Deletion in Trie"
+    },
+    {
+      "topic_id": 8,
+      "name": "Challenge: Total Number of Words in a Trie"
+    },
+    {
+      "topic_id": 8,
+      "name": "Challenge: Find All Words Stored in Trie"
+    },
+    {
+      "topic_id": 8,
+      "name": "Challenge: List Sort Using Trie"
+    },
+    {
+      "topic_id": 8,
+      "name": "Challenge: Word Formation From a Dictionary Using Trie"
+    },
+    {
+      "topic_id": 8,
+      "name": "Trie Quiz: Test Your Understanding of Tries"
+    },
+    {
+      "topic_id": 9,
+      "name": "What is a Heap?"
+    },
+    {
+      "topic_id": 9,
+      "name": "Max Heap: Introduction"
+    },
+    {
+      "topic_id": 9,
+      "name": "Max Heap (Implementation)"
+    },
+    {
+      "topic_id": 9,
+      "name": "Min Heap: Introduction"
+    },
+    {
+      "topic_id": 9,
+      "name": "Min Heap (Implementation)"
+    },
+    {
+      "topic_id": 9,
+      "name": "Challenge: Convert Max-Heap to Min-Heap"
+    },
+    {
+      "topic_id": 9,
+      "name": "Challenge: Find k Smallest Elements in a List"
+    },
+    {
+      "topic_id": 9,
+      "name": "Challenge: Find k Largest Elements in the List"
+    },
+    {
+      "topic_id": 9,
+      "name": "Heap Quiz: Test your understanding of Heaps"
+    }, {
+      "topic_id": 10,
+      "name": "What is a Hash Table?"
+    },
+    {
+      "topic_id": 10,
+      "name": "The Hash Function"
+    },
+    {
+      "topic_id": 10,
+      "name": "Collisions in Hash Tables"
+    },
+    {
+      "topic_id": 10,
+      "name": "Building a Hash Table from Scratch"
+    },
+    {
+      "topic_id": 10,
+      "name": "Add/Remove & Search in Hash Table (Implementation)"
+    },
+    {
+      "topic_id": 10,
+      "name": "A Quick Overview of Hash Tables"
+    },
+    {
+      "topic_id": 10,
+      "name": "Trees vs Hash Table"
+    },
+    {
+      "topic_id": 10,
+      "name": "Dictionary vs Set"
+    },
+    {
+      "topic_id": 10,
+      "name": "Challenge: A List as a Subset of Another List"
+    },
+    {
+      "topic_id": 10,
+      "name": "Challenge: Check if Lists are Disjoint"
+    },
+    {
+      "topic_id": 10,
+      "name": "Challenge: Find Symmetric Pairs in a List"
+    },
+    {
+      "topic_id": 10,
+      "name": "Challenge: Trace the Complete Path of a Journey"
+    },
+    {
+      "topic_id": 10,
+      "name": "Challenge: Find Two Pairs in List such that a+b = c+d"
+    },
+    {
+      "topic_id": 10,
+      "name": "Challenge: A Sublist with a Sum of 0"
+    },
+    {
+      "topic_id": 10,
+      "name": "Challenge: Word Formation Using a Hash Table"
+    },
+    {
+      "topic_id": 10,
+      "name": "Challenge: Find Two Numbers that Add up to \"k\" - Hashing"
+    },
+    {
+      "topic_id": 10,
+      "name": "Challenge: First Non-Repeating Integer in a List - Hashing"
+    },
+    {
+      "topic_id": 10,
+      "name": "Challenge: Detect Loop in a Linked List - Hashing"
+    },
+    {
+      "topic_id": 10,
+      "name": "Challenge: Remove Duplicates from Linked List - Hashing"
+    },
+    {
+      "topic_id": 10,
+      "name": "Challenge: Union & Intersection of Linked Lists - Hashing"
+    },
+    {
+      "topic_id": 10,
+      "name": "Hashing Quiz: Test your understanding of Hashing"
+    },
+    {
+      "topic_id": 11,
+      "name": "Final Remarks"
+    },
+    {
+      "topic_id": 12,
+      "name": "Brute Force"
+    },
+    {
+      "topic_id": 12,
+      "name": "Greedy Algorithms"
+    },
+    {
+      "topic_id": 12,
+      "name": "Divide and Conquer"
+    },
+    {
+      "topic_id": 12,
+      "name": "Dynamic Programming"
+    },
+    {
+      "topic_id": 13,
+      "name": "Selection Sort, Bubble Sort, and Insertion Sort"
+    },
+    {
+      "topic_id": 13,
+      "name": "Merge Sort"
+    },
+    {
+      "topic_id": 13,
+      "name": "Quick Sort"
+    },
+    {
+      "topic_id": 13,
+      "name": "Overview of Sorting Algorithms"
+    },
+    {
+      "topic_id": 13,
+      "name": "Searching Algorithms"
+    },
+    {
+      "topic_id": 13,
+      "name": "Challenge: Find Two Numbers That Add Up to \"n\""
+    },
+    {
+      "topic_id": 13,
+      "name": "Challenge: Search in a Rotated List"
+    },
+    {
+      "topic_id": 13,
+      "name": "Challenge: Arrange a Binary List"
+    },
+    {
+      "topic_id": 13,
+      "name": "Challenge: Find the Maximum Product of Two Integers in a List"
+    },
+    {
+      "topic_id": 13,
+      "name": "Challenge: Find Duplicates in a List With No Repetition"
+    },
+    {
+      "topic_id": 13,
+      "name": "Challenge: Search in a 2D List"
+    },
+    {
+      "topic_id": 13,
+      "name": "Challenge: Search Position"
+    },
+    {
+      "topic_id": 13,
+      "name": "Challenge: Dutch National Flag Problem"
+    },
+    {
+      "topic_id": 13,
+      "name": "Quiz on Sorting & Searching"
+    },
+    {
+      "topic_id": 14,
+      "name": "Introduction to Graph Algorithms and Implementation"
+    },
+    {
+      "topic_id": 14,
+      "name": "Challenge: Implement Breadth-First Graph Traversal"
+    },
+    {
+      "topic_id": 14,
+      "name": "Challenge: Implement Depth-First Graph Traversal"
+    },
+    {
+      "topic_id": 14,
+      "name": "Challenge: Calculate the Number of Nodes in a Graph Level"
+    },
+    {
+      "topic_id": 14,
+      "name": "Challenge: Transpose a Graph"
+    },
+    {
+      "topic_id": 14,
+      "name": "Challenge: Find All Paths Between Two Nodes"
+    },
+    {
+      "topic_id": 14,
+      "name": "Challenge: Check If a Graph is Strongly Connected"
+    },
+    {
+      "topic_id": 14,
+      "name": "Challenge: Find All Connected Components in a Graph"
+    },
+    {
+      "topic_id": 14,
+      "name": "Challenge: Remove an Edge"
+    },
+    {
+      "topic_id": 14,
+      "name": "Challenge: Detect a Cycle in a Graph"
+    },
+    {
+      "topic_id": 14,
+      "name": "Quiz on Graph Algorithms"
+    },
+    {
+      "topic_id": 15,
+      "name": "Greedy Approach: A Deep Dive"
+    },
+    {
+      "topic_id": 15,
+      "name": "Challenge: Counting Money"
+    },
+    {
+      "topic_id": 15,
+      "name": "Challenge: Connecting n Pipes With Minimum Cost"
+    },
+    {
+      "topic_id": 15,
+      "name": "Challenge: Find the Egyptian Fraction's Denominators"
+    },
+    {
+      "topic_id": 15,
+      "name": "Challenge: Find the Minimum Platforms Required For a Station"
+    },
+    {
+      "topic_id": 15,
+      "name": "Challenge: Find the Largest Number Possible"
+    },
+    {
+      "topic_id": 15,
+      "name": "Quiz on Greedy Algorithms"
+    },
+    {
+      "topic_id": 16,
+      "name": "Calculating Fibonacci Numbers"
+    },
+    {
+      "topic_id": 16,
+      "name": "Introducing Dynamic Programming with Fibonacci Numbers"
+    },
+    {
+      "topic_id": 16,
+      "name": "Memoizing Fibonacci Numbers"
+    },
+    {
+      "topic_id": 16,
+      "name": "Tabulating Fibonacci Numbers"
+    },
+    {
+      "topic_id": 16,
+      "name": "Challenge: The 0/1 Knapsack Problem"
+    },
+    {
+      "topic_id": 16,
+      "name": "Challenge: Longest Common Substring"
+    },
+    {
+      "topic_id": 16,
+      "name": "Challenge: Shortest Common Supersequence(SCS)"
+    },
+    {
+      "topic_id": 16,
+      "name": "Challenge: Longest Palindromic Subsequence"
+    },
+    {
+      "topic_id": 16,
+      "name": "Challenge: The Coin Change Problem"
+    },
+    {
+      "topic_id": 16,
+      "name": "Challenge: Egg Dropping Problem"
+    },
+    {
+      "topic_id": 16,
+      "name": "Challenge: Strings Interleaving"
+    },
+    {
+      "topic_id": 16,
+      "name": "Challenge: Edit Distance Problem"
+    },
+    {
+      "topic_id": 16,
+      "name": "Quiz on Dynamic Programming"
+    },
+    {
+      "topic_id": 17,
+      "name": "Introduction to Divide and Conquer With Binary Search"
+    },
+    {
+      "topic_id": 17,
+      "name": "Pascal's Triangle"
+    },
+    {
+      "topic_id": 17,
+      "name": "Challenge: Euclidean Algorithm"
+    },
+    {
+      "topic_id": 17,
+      "name": "Challenge: Find the Peak Element"
+    },
+    {
+      "topic_id": 17,
+      "name": "Challenge: Collect Coins in Minimum Steps"
+    },
+    {
+      "topic_id": 17,
+      "name": "Challenge: Find the Floor and Ceil of a Number in a Sorted List"
+    },
+    {
+      "topic_id": 17,
+      "name": "Challenge: Missing Number in a Sorted List"
+    },
+    {
+      "topic_id": 17,
+      "name": "Challenge: Find the Closest Number"
+    },
+    {
+      "topic_id": 17,
+      "name": "Challenge: Shuffle Integers"
+    },
+    {
+      "topic_id": 17,
+      "name": "Challenge: Inversion Count in a List"
+    },
+    {
+      "topic_id": 17,
+      "name": "Quiz on Divide and Conquer"
+    },
+    {
+      "topic_id": 18,
+      "name": "Final Remarks"
+    },
+    {
+      "topic_id": 19,
+      "name": "About This Module"
+    },
+    {
+      "topic_id": 20,
+      "name": "What is Recursion?"
+    },
+    {
+      "topic_id": 20,
+      "name": "When to Use Recursion?"
+    },
+    {
+      "topic_id": 20,
+      "name": "Challenge 1: Find the Greatest Common Divisor"
+    },
+    {
+      "topic_id": 20,
+      "name": "Challenge 2: Pascal's Triangle"
+    },
+    {
+      "topic_id": 20,
+      "name": "Challenge 3: Convert Decimal Number to Binary Number"
+    },
+    {
+      "topic_id": 20,
+      "name": "Challenge 2: Balance Parenthesis"
+    },
+    {
+      "topic_id": 20,
+      "name": "Challenge 2: Reverse a Stack"
+    },
+    {
+      "topic_id": 20,
+      "name": "Challenge 3: Topological Sorting of a Graph"
+    },
+    {
+      "topic_id": 21,
+      "name": "Final Remarks"
+    },
+    {
+      "topic_id": 22,
+      "name": "Sliding Window: Introduction"
+    },
+    {
+      "topic_id": 22,
+      "name": "Repeated DNA Sequences"
+    },
+    {
+      "topic_id": 22,
+      "name": "Find Maximum in Sliding Window"
+    },
+    {
+      "topic_id": 22,
+      "name": "Minimum Window Subsequence"
+    },
+    {
+      "topic_id": 22,
+      "name": "Minimum Window Substring"
+    },
+    {
+      "topic_id": 22,
+      "name": "Longest Substring without Repeating Characters"
+    },
+    {
+      "topic_id": 22,
+      "name": "Longest Repeating Character Replacement"
+    },
+    {
+      "topic_id": 22,
+      "name": "Minimum Size Subarray Sum"
+    },
+    {
+      "topic_id": 22,
+      "name": "Best Time to Buy and Sell Stock"
+    },
+    {
+      "topic_id": 23,
+      "name": "Two Pointers: Introduction"
+    },
+    {
+      "topic_id": 23,
+      "name": "Valid Palindrome"
+    },
+    {
+      "topic_id": 23,
+      "name": "Sum of Three Values"
+    },
+    {
+      "topic_id": 23,
+      "name": "Remove nth Node from End of List"
+    },
+    {
+      "topic_id": 23,
+      "name": "Sort Colors"
+    },
+    {
+      "topic_id": 23,
+      "name": "Reverse Words in a String"
+    },
+    {
+      "topic_id": 23,
+      "name": "Valid Palindrome II"
+    },
+    {
+      "topic_id": 24,
+      "name": "Fast and Slow Pointers: Introduction"
+    },
+    {
+      "topic_id": 24,
+      "name": "Happy Number"
+    },
+    {
+      "topic_id": 24,
+      "name": "Linked List Cycle"
+    },
+    {
+      "topic_id": 24,
+      "name": "Middle of the Linked List"
+    },
+    {
+      "topic_id": 24,
+      "name": "Circular Array Loop"
+    },
+    {
+      "topic_id": 24,
+      "name": "Find The Duplicate Number"
+    },
+    {
+      "topic_id": 24,
+      "name": "Palindrome Linked List"
+    },
+    {
+      "topic_id": 25,
+      "name": "Merge Intervals: Introduction"
+    },
+    {
+      "topic_id": 25,
+      "name": "Merge Intervals"
+    },
+    {
+      "topic_id": 25,
+      "name": "Insert Interval"
+    },
+    {
+      "topic_id": 25,
+      "name": "Interval List Intersections"
+    },
+    {
+      "topic_id": 25,
+      "name": "Employee Free Time"
+    },
+    {
+      "topic_id": 25,
+      "name": "Task Scheduler"
+    },
+    {
+      "topic_id": 25,
+      "name": "Meeting Rooms II"
+    },
+    {
+      "topic_id": 26,
+      "name": "In-place Reversal of a Linked List: Introduction"
+    },
+    {
+      "topic_id": 26,
+      "name": "Reverse Linked List"
+    },
+    {
+      "topic_id": 26,
+      "name": "Reverse Nodes in k-Group"
+    },
+    {
+      "topic_id": 26,
+      "name": "Reverse Linked List II"
+    },
+    {
+      "topic_id": 26,
+      "name": "Reorder List"
+    },
+    {
+      "topic_id": 26,
+      "name": "Swapping Nodes in a Linked List"
+    },
+    {
+      "topic_id": 26,
+      "name": "Reverse Nodes In Even Length Groups"
+    },
+    {
+      "topic_id": 26,
+      "name": "Swap Nodes in Pairs"
+    },
+    {
+      "topic_id": 27,
+      "name": "Two Heaps: Introduction"
+    },
+    {
+      "topic_id": 27,
+      "name": "Maximize Capital"
+    },
+    {
+      "topic_id": 27,
+      "name": "Sliding Window Median"
+    },
+    {
+      "topic_id": 27,
+      "name": "Find Median from a Data Stream"
+    },
+    {
+      "topic_id": 27,
+      "name": "Schedule Tasks on Minimum Machines"
+    },
+    {
+      "topic_id": 28,
+      "name": "K-way Merge: Introduction"
+    },
+    {
+      "topic_id": 28,
+      "name": "Merge Sorted Array"
+    },
+    {
+      "topic_id": 28,
+      "name": "Kth Smallest Number in M Sorted Lists"
+    },
+    {
+      "topic_id": 28,
+      "name": "Find K Pairs with Smallest Sums"
+    },
+    {
+      "topic_id": 28,
+      "name": "Merge K Sorted Lists"
+    },
+    {
+      "topic_id": 28,
+      "name": "Kth Smallest Element in a Sorted Matrix"
+    },
+    {
+      "topic_id": 29,
+      "name": "Top K Elements: Introduction"
+    },
+    {
+      "topic_id": 29,
+      "name": "Kth Largest Element in a Stream"
+    },
+    {
+      "topic_id": 29,
+      "name": "Reorganize String"
+    },
+    {
+      "topic_id": 29,
+      "name": "K Closest Points to Origin"
+    },
+    {
+      "topic_id": 29,
+      "name": "Top K Frequent Elements"
+    },
+    {
+      "topic_id": 29,
+      "name": "Kth Largest Element in an Array"
+    },
+    {
+      "topic_id": 29,
+      "name": "Top K Frequent Words"
+    },
+    {
+      "topic_id": 30,
+      "name": "Modified Binary Search: Introduction"
+    },
+    {
+      "topic_id": 30,
+      "name": "Binary Search"
+    },
+    {
+      "topic_id": 30,
+      "name": "Search in Rotated Sorted Array"
+    },
+    {
+      "topic_id": 30,
+      "name": "First Bad Version"
+    },
+    {
+      "topic_id": 30,
+      "name": "Random Pick with Weight"
+    },
+    {
+      "topic_id": 30,
+      "name": "Find K Closest Elements"
+    },
+    {
+      "topic_id": 30,
+      "name": "Single Element in a Sorted Array"
+    },
+    {
+      "topic_id": 30,
+      "name": "Search in Rotated Sorted Array II"
+    },
+    {
+      "topic_id": 31,
+      "name": "Subsets: Introduction"
+    },
+    {
+      "topic_id": 31,
+      "name": "Subsets"
+    },
+    {
+      "topic_id": 31,
+      "name": "Permutations"
+    },
+    {
+      "topic_id": 31,
+      "name": "Letter Combinations of a Phone Number"
+    },
+    {
+      "topic_id": 31,
+      "name": "Generate Parentheses"
+    },
+    {
+      "topic_id": 31,
+      "name": "Find K-Sum Subsets"
+    },
+    {
+      "topic_id": 32,
+      "name": "Greedy Techniques: Introduction"
+    },
+    {
+      "topic_id": 32,
+      "name": "Jump Game I"
+    },
+    {
+      "topic_id": 32,
+      "name": "Boats to Save People"
+    },
+    {
+      "topic_id": 32,
+      "name": "Gas Stations"
+    },
+    {
+      "topic_id": 32,
+      "name": "Two City Scheduling"
+    },
+    {
+      "topic_id": 32,
+      "name": "Jump Game II"
+    },
+    {
+      "topic_id": 32,
+      "name": "Minimum Number of Refueling Stops"
+    },
+    {
+      "topic_id": 33,
+      "name": "Backtracking: Introduction"
+    },
+    {
+      "topic_id": 33,
+      "name": "N-Queens"
+    },
+    {
+      "topic_id": 33,
+      "name": "Word Search"
+    },
+    {
+      "topic_id": 33,
+      "name": "House Robber III"
+    },
+    {
+      "topic_id": 33,
+      "name": "Restore IP Addresses"
+    },
+    {
+      "topic_id": 33,
+      "name": "Flood Fill"
+    },
+    {
+      "topic_id": 33,
+      "name": "Sudoku Solver"
+    },
+    {
+      "topic_id": 33,
+      "name": "Matchsticks to Square"
+    },
+    {
+      "topic_id": 34,
+      "name": "Dynamic Programming: Introduction"
+    },
+    {
+      "topic_id": 34,
+      "name": "0/1 Knapsack"
+    },
+    {
+      "topic_id": 34,
+      "name": "Coin Change"
+    },
+    {
+      "topic_id": 34,
+      "name": "N-th Tribonacci Number"
+    },
+    {
+      "topic_id": 34,
+      "name": "Partition Equal Subset Su"
+    },
+    {
+      "topic_id": 34,
+      "name": "Counting Bits"
+    },
+    {
+      "topic_id": 34,
+      "name": "01 Matrix"
+    },
+    {
+      "topic_id": 34,
+      "name": "House Robber II"
+    },
+    {
+      "topic_id": 34,
+      "name": "Maximum Product Subarray"
+    },
+    {
+      "topic_id": 34,
+      "name": "Combination Sum"
+    },
+    {
+      "topic_id": 34,
+      "name": "Word Break"
+    },
+    {
+      "topic_id": 34,
+      "name": "Palindromic Substrings"
+    },
+    {
+      "topic_id": 34,
+      "name": "Longest Common Subsequence"
+    },
+    {
+      "topic_id": 34,
+      "name": "Word Break II"
+    },
+    {
+      "topic_id": 34,
+      "name": "Decode Ways"
+    },
+    {
+      "topic_id": 34,
+      "name": "Climbing Stairs"
+    },
+    {
+      "topic_id": 35,
+      "name": "Cyclic Sort: Introduction"
+    },
+    {
+      "topic_id": 35,
+      "name": "Missing Number"
+    },
+    {
+      "topic_id": 35,
+      "name": "First Missing Positive"
+    },
+    {
+      "topic_id": 35,
+      "name": "Find the Corrupt Pair"
+    },
+    {
+      "topic_id": 35,
+      "name": "Find the First K Missing Positive Numbers"
+    },
+    {
+      "topic_id": 36,
+      "name": "Topological Sort: Introduction"
+    },
+    {
+      "topic_id": 36,
+      "name": "Compilation Order"
+    },
+    {
+      "topic_id": 36,
+      "name": "Alien Dictionary"
+    },
+    {
+      "topic_id": 36,
+      "name": "Verifying an Alien Dictionary"
+    },
+    {
+      "topic_id": 36,
+      "name": "Course Schedule II"
+    },
+    {
+      "topic_id": 36,
+      "name": "Course Schedule"
+    },
+    {
+      "topic_id": 36,
+      "name": "Find All Possible Recipes from Given Supplies"
+    },
+    {
+      "topic_id": 37,
+      "name": "Matrices: Introduction"
+    },
+    {
+      "topic_id": 37,
+      "name": "Set Matrix Zeros"
+    },
+    {
+      "topic_id": 37,
+      "name": "Rotate Image"
+    },
+    {
+      "topic_id": 37,
+      "name": "Spiral Matrix"
+    },
+    {
+      "topic_id": 37,
+      "name": "Where Will the Ball Fall"
+    },
+    {
+      "topic_id": 38,
+      "name": "Stacks: Introduction"
+    },
+    {
+      "topic_id": 38,
+      "name": "Basic Calculator"
+    },
+    {
+      "topic_id": 38,
+      "name": "Remove All Adjacent Duplicates In String"
+    },
+    {
+      "topic_id": 38,
+      "name": "Minimum Remove to Make Valid Parentheses"
+    },
+    {
+      "topic_id": 38,
+      "name": "Exclusive Execution Time of Functions"
+    },
+    {
+      "topic_id": 38,
+      "name": "Flatten Nested List Iterator"
+    },
+    {
+      "topic_id": 38,
+      "name": "Implement Queue Using Stacks"
+    },
+    {
+      "topic_id": 38,
+      "name": "Valid Parentheses"
+    },
+    {
+      "topic_id": 39,
+      "name": "Graphs: Introduction"
+    },
+    {
+      "topic_id": 39,
+      "name": "Network Delay Time"
+    },
+    {
+      "topic_id": 39,
+      "name": "Paths in Maze That Lead to Same Room"
+    },
+    {
+      "topic_id": 39,
+      "name": "Clone Graph"
+    },
+    {
+      "topic_id": 39,
+      "name": "Graph Valid Tree"
+    },
+    {
+      "topic_id": 39,
+      "name": "Bus Routes"
+    },
+    {
+      "topic_id": 40,
+      "name": "Tree Depth-first Search: Introduction"
+    },
+    {
+      "topic_id": 40,
+      "name": "Flatten Binary Tree to Linked List"
+    },
+    {
+      "topic_id": 40,
+      "name": "Diameter of Binary Tree"
+    },
+    {
+      "topic_id": 40,
+      "name": "Serialize and Deserialize Binary Tree"
+    },
+    {
+      "topic_id": 40,
+      "name": "Invert Binary Tree"
+    },
+    {
+      "topic_id": 40,
+      "name": "Binary Tree Maximum Path Sum"
+    },
+    {
+      "topic_id": 40,
+      "name": "Convert Sorted Array to Binary Search Tree"
+    },
+    {
+      "topic_id": 40,
+      "name": "Build Binary Tree from Preorder and Inorder Traversal"
+    },
+    {
+      "topic_id": 40,
+      "name": "Binary Tree Right Side View"
+    },
+    {
+      "topic_id": 40,
+      "name": "Lowest Common Ancestor in a Binary Tree"
+    },
+    {
+      "topic_id": 40,
+      "name": "Validate Binary Search Tree"
+    },
+    {
+      "topic_id": 40,
+      "name": "Maximum Depth of Binary Tree"
+    },
+    {
+      "topic_id": 40,
+      "name": "Kth Smallest Element in a BST"
+    },
+    {
+      "topic_id": 41,
+      "name": "Tree Breadth-first Search: Introduction"
+    },
+    {
+      "topic_id": 41,
+      "name": "Level Order Traversal of Binary Tree"
+    },
+    {
+      "topic_id": 41,
+      "name": "Binary Tree Zigzag Level Order Traversal"
+    },
+    {
+      "topic_id": 41,
+      "name": "Populating Next Right Pointers in Each Node"
+    },
+    {
+      "topic_id": 41,
+      "name": "Vertical Order Traversal of a Binary Tree"
+    },
+    {
+      "topic_id": 41,
+      "name": "Symmetric Tree"
+    },
+    {
+      "topic_id": 41,
+      "name": "Word Ladder"
+    },
+    {
+      "topic_id": 41,
+      "name": "Connect All Siblings of a Binary Tree"
+    },
+    {
+      "topic_id": 42,
+      "name": "Trie: Introduction"
+    },
+    {
+      "topic_id": 42,
+      "name": "Implement Trie"
+    },
+    {
+      "topic_id": 42,
+      "name": "Search Suggestions System"
+    },
+    {
+      "topic_id": 42,
+      "name": "Replace Words"
+    },
+    {
+      "topic_id": 42,
+      "name": "Design Add and Search Words Data Structure"
+    },
+    {
+      "topic_id": 42,
+      "name": "Word Search II"
+    },
+    {
+      "topic_id": 42,
+      "name": "Lexicographical Numbers"
+    },
+    {
+      "topic_id": 43,
+      "name": "Hash Maps: Introduction"
+    },
+    {
+      "topic_id": 43,
+      "name": "Design HashMap"
+    },
+    {
+      "topic_id": 43,
+      "name": "Fraction to Recurring Decimal"
+    },
+    {
+      "topic_id": 43,
+      "name": "Logger Rate Limiter"
+    },
+    {
+      "topic_id": 43,
+      "name": "Next Greater Element"
+    },
+    {
+      "topic_id": 43,
+      "name": "Isomorphic Strings"
+    },
+    {
+      "topic_id": 43,
+      "name": "Longest Palindrome"
+    },
+    {
+      "topic_id": 44,
+      "name": "Knowing What to Track: Introduction"
+    },
+    {
+      "topic_id": 44,
+      "name": "Palindrome Permutation"
+    },
+    {
+      "topic_id": 44,
+      "name": "Design Tic-Tac-Toe"
+    },
+    {
+      "topic_id": 44,
+      "name": "Group Anagrams"
+    },
+    {
+      "topic_id": 44,
+      "name": "Maximum Frequency Stack"
+    },
+    {
+      "topic_id": 44,
+      "name": "First Unique Character in a String"
+    },
+    {
+      "topic_id": 44,
+      "name": "Find All Anagrams in a String"
+    },
+    {
+      "topic_id": 44,
+      "name": "Ransom Note"
+    },
+    {
+      "topic_id": 45,
+      "name": "Union Find: Introduction"
+    },
+    {
+      "topic_id": 45,
+      "name": "Redundant Connection"
+    },
+    {
+      "topic_id": 45,
+      "name": "Number of Islands"
+    },
+    {
+      "topic_id": 45,
+      "name": "Most Stones Removed with Same Row or Column"
+    },
+    {
+      "topic_id": 45,
+      "name": "Longest Consecutive Sequence"
+    },
+    {
+      "topic_id": 45,
+      "name": "Last Day Where You Can Still Cross"
+    },
+    {
+      "topic_id": 45,
+      "name": "Regions Cut by Slashes"
+    },
+    {
+      "topic_id": 45,
+      "name": "Accounts Merge"
+    },
+    {
+      "topic_id": 45,
+      "name": "Minimize Malware Spread"
+    },
+    {
+      "topic_id": 45,
+      "name": "Evaluate Division"
+    },
+    {
+      "topic_id": 46,
+      "name": "Custom Data Structures: Introduction"
+    },
+    {
+      "topic_id": 46,
+      "name": "Snapshot Array"
+    },
+    {
+      "topic_id": 46,
+      "name": "Time-Based Key-Value Store"
+    },
+    {
+      "topic_id": 46,
+      "name": "Implement LRU Cache"
+    },
+    {
+      "topic_id": 46,
+      "name": "Insert Delete GetRandom O(1)"
+    },
+    {
+      "topic_id": 46,
+      "name": "Min Stack"
+    },
+    {
+      "topic_id": 46,
+      "name": "LFU Cache"
+    },
+    {
+      "topic_id": 47,
+      "name": "Bitwise Manipulation: Introduction"
+    },
+    {
+      "topic_id": 47,
+      "name": "Find the Difference"
+    },
+    {
+      "topic_id": 47,
+      "name": "Complement of Base 10 Number"
+    },
+    {
+      "topic_id": 47,
+      "name": "Flipping an Image"
+    },
+    {
+      "topic_id": 47,
+      "name": "Single Number"
+    },
+    {
+      "topic_id": 47,
+      "name": "Two Single Numbers"
+    },
+    {
+      "topic_id": 47,
+      "name": "Encode and Decode Strings"
+    },
+    {
+      "topic_id": 47,
+      "name": "Reverse Bits"
+    },
+    {
+      "topic_id": 48,
+      "name": "Challenge Yourself: Introduction"
+    },
+    {
+      "topic_id": 48,
+      "name": "Shortest Bridge"
+    },
+    {
+      "topic_id": 48,
+      "name": "Number of Connected Components in an Undirected Graph"
+    },
+    {
+      "topic_id": 48,
+      "name": "Pacific Atlantic Water Flow"
+    },
+    {
+      "topic_id": 48,
+      "name": "Contains Duplicate"
+    },
+    {
+      "topic_id": 48,
+      "name": "Maximum Subarray"
+    },
+    {
+      "topic_id": 48,
+      "name": "Two Sum"
+    },
+    {
+      "topic_id": 48,
+      "name": "Find Minimum in Rotated Sorted Array"
+    },
+    {
+      "topic_id": 48,
+      "name": "Non-overlapping Intervals"
+    },
+    {
+      "topic_id": 48,
+      "name": "Meeting Rooms"
+    },
+    {
+      "topic_id": 48,
+      "name": "Largest Rectangle in Histogram"
+    },
+    {
+      "topic_id": 48,
+      "name": "Subtree of Another Tree"
+    },
+    {
+      "topic_id": 48,
+      "name": "Sort List"
+    },
+    {
+      "topic_id": 48,
+      "name": "Number of 1 Bits"
+    },
+    {
+      "topic_id": 48,
+      "name": "Container With the Most Water"
+    },
+    {
+      "topic_id": 48,
+      "name": "Evaluate Reverse Polish Notation"
+    },
+    {
+      "topic_id": 48,
+      "name": "4Sum"
+    },
+    {
+      "topic_id": 48,
+      "name": "Loud and Rich"
+    },
+    {
+      "topic_id": 48,
+      "name": "Product of Array Except Self"
+    },
+    {
+      "topic_id": 48,
+      "name": "Longest Increasing Subsequence"
+    },
+    {
+      "topic_id": 48,
+      "name": "Sum of Two Integers"
+    },
+    {
+      "topic_id": 48,
+      "name": "Majority Element"
+    },
+    {
+      "topic_id": 48,
+      "name": "Unique Paths"
+    },
+    {
+      "topic_id": 48,
+      "name": "Longest Palindromic Substring"
+    },
+    {
+      "topic_id": 48,
+      "name": "Permutations II"
+    },
+    {
+      "topic_id": 48,
+      "name": "Number of Provinces"
+    },
+    {
+      "topic_id": 48,
+      "name": "Top K Frequent Words"
+    },
+    {
+      "topic_id": 48,
+      "name": "Linked List Cycle II"
+    },
+    {
+      "topic_id": 48,
+      "name": "Minimum Flips to Make the Binary String Alternate"
+    },
+    {
+      "topic_id": 48,
+      "name": "Lemonade Change"
+    },
+    {
+      "topic_id": 48,
+      "name": "House Robber"
+    },
+    {
+      "topic_id": 48,
+      "name": "Find All Numbers Disappeared in an Array"
+    },
+    {
+      "topic_id": 48,
+      "name": "Find All Duplicates in an Array"
+    },
+    {
+      "topic_id": 48,
+      "name": "Same Tree"
+    },
+    {
+      "topic_id": 48,
+      "name": "Design In-Memory File System"
+    },
+    {
+      "topic_id": 48,
+      "name": "Design File System"
+    },
+    {
+      "topic_id": 48,
+      "name": "Asteroid Collision"
+    },
+    {
+      "topic_id": 48,
+      "name": "Rotting Oranges"
+    },
+    {
+      "topic_id": 48,
+      "name": "Add Binary"
+    },
+    {
+      "topic_id": 48,
+      "name": "Multiply Strings"
+    },
+    {
+      "topic_id": 49,
+      "name": "Background of Object-oriented Programming (OOP)"
+    },
+    {
+      "topic_id": 49,
+      "name": "Encapsulation"
+    },
+    {
+      "topic_id": 49,
+      "name": "Abstraction"
+    },
+    {
+      "topic_id": 49,
+      "name": "Inheritance"
+    },
+    {
+      "topic_id": 49,
+      "name": "Polymorphism"
+    },
+    {
+      "topic_id": 49,
+      "name": "Quiz: Object-oriented Basics"
+    },
+    {
+      "topic_id": 50,
+      "name": "Introduction to Object-oriented Analysis and Design (OOAD)"
+    },
+    {
+      "topic_id": 50,
+      "name": "Introduction to the Unified Modeling Language"
+    },
+    {
+      "topic_id": 50,
+      "name": "Types of UML Diagrams"
+    },
+    {
+      "topic_id": 50,
+      "name": "Use Case Diagram"
+    },
+    {
+      "topic_id": 50,
+      "name": "Class Diagram"
+    },
+    {
+      "topic_id": 50,
+      "name": "Sequence Diagram"
+    },
+    {
+      "topic_id": 50,
+      "name": "Activity Diagram"
+    },
+    {
+      "topic_id": 50,
+      "name": "Quiz: Object-oriented Design"
+    },
+    {
+      "topic_id": 51,
+      "name": "Introduction to SOLID Design Principles"
+    },
+    {
+      "topic_id": 51,
+      "name": "SOLID: Single Responsibility Principle"
+    },
+    {
+      "topic_id": 51,
+      "name": "SOLID: Open Closed Principle"
+    },
+    {
+      "topic_id": 51,
+      "name": "SOLID: Liskov Substitution Principle"
+    },
+    {
+      "topic_id": 51,
+      "name": "SOLID: Interface Segregation Principle"
+    },
+    {
+      "topic_id": 51,
+      "name": "SOLID: Dependency Inversion Principle"
+    },
+    {
+      "topic_id": 51,
+      "name": "Quiz: Object-oriented Design Principles"
+    },
+    {
+      "topic_id": 52,
+      "name": "Introduction to the Design Patterns"
+    },
+    {
+      "topic_id": 52,
+      "name": "Classification of Design Patterns"
+    },
+    {
+      "topic_id": 52,
+      "name": "Creational Design Patterns"
+    },
+    {
+      "topic_id": 52,
+      "name": "Structural Design Patterns"
+    },
+    {
+      "topic_id": 52,
+      "name": "Behavioral Design Patterns"
+    },
+    {
+      "topic_id": 52,
+      "name": "Quiz: Design Patterns"
+    },
+    {
+      "topic_id": 53,
+      "name": "An Approach to Solve a Real-world Problem"
+    },
+    {
+      "topic_id": 54,
+      "name": "Getting Ready: Parking Lot"
+    },
+    {
+      "topic_id": 54,
+      "name": "Requirements for the Parking Lot Design"
+    },
+    {
+      "topic_id": 54,
+      "name": "Use Case Diagram for the Parking Lot"
+    },
+    {
+      "topic_id": 54,
+      "name": "Class Diagram for the Parking Lot"
+    },
+    {
+      "topic_id": 54,
+      "name": "Sequence Diagram for the Parking Lot"
+    },
+    {
+      "topic_id": 54,
+      "name": "Activity Diagram for the Parking Lot"
+    },
+    {
+      "topic_id": 54,
+      "name": "Code for the Parking Lot"
+    },
+    {
+      "topic_id": 55,
+      "name": "Getting Ready: Elevator System"
+    },
+    {
+      "topic_id": 55,
+      "name": "Requirements for the Elevator System"
+    },
+    {
+      "topic_id": 55,
+      "name": "Use Case Diagram for the Elevator System"
+    },
+    {
+      "topic_id": 55,
+      "name": "Class Diagram for the Elevator System"
+    },
+    {
+      "topic_id": 55,
+      "name": "Sequence Diagram for the Elevator System"
+    },
+    {
+      "topic_id": 55,
+      "name": "Activity Diagram for the Elevator System"
+    },
+    {
+      "topic_id": 55,
+      "name": "Code of Elevator System"
+    },
+    {
+      "topic_id": 56,
+      "name": "Getting Ready: Library Management System"
+    },
+    {
+      "topic_id": 56,
+      "name": "Requirements for the Library Management System"
+    },
+    {
+      "topic_id": 56,
+      "name": "Use Case Diagram for the Library Management System"
+    },
+    {
+      "topic_id": 56,
+      "name": "Class Diagram for the Library Management System"
+    },
+    {
+      "topic_id": 56,
+      "name": "Sequence Diagram for the Library Management System"
+    },
+    {
+      "topic_id": 56,
+      "name": "Activity Diagram for the Library Management System"
+    },
+    {
+      "topic_id": 56,
+      "name": "Code of Library Management System"
+    },
+    {
+      "topic_id": 57,
+      "name": "Getting Ready: Vending Machine"
+    },
+    {
+      "topic_id": 57,
+      "name": "Requirements for the Vending Machine"
+    },
+    {
+      "topic_id": 57,
+      "name": "Use Case Diagram for the Vending Machine"
+    },
+    {
+      "topic_id": 57,
+      "name": "Class Diagram for the Vending Machine"
+    },
+    {
+      "topic_id": 57,
+      "name": "Activity Diagram for the Vending Machine"
+    },
+    {
+      "topic_id": 57,
+      "name": "Code for the Vending Machine"
+    },
+    {
+      "topic_id": 58,
+      "name": "Getting Ready: Movie Ticket Booking System"
+    },
+    {
+      "topic_id": 58,
+      "name": "Requirements for the Movie Ticket Booking System"
+    },
+    {
+      "topic_id": 58,
+      "name": "Use Case Diagram for the Movie Ticket Booking System"
+    },
+    {
+      "topic_id": 58,
+      "name": "Class Diagram for the Movie Ticket Booking System"
+    },
+    {
+      "topic_id": 58,
+      "name": "Sequence Diagram for the Movie Ticket Booking System"
+    },
+    {
+      "topic_id": 58,
+      "name": "Activity Diagram for the Movie Ticket Booking System"
+    },
+    {
+      "topic_id": 58,
+      "name": "Code for the Movie Ticket Booking System"
+    },
+    {
+      "topic_id": 59,
+      "name": "Final Remarks"
+    },
+    {
+      "topic_id": 60,
+      "name": "About This Module"
+    },
+    {
+      "topic_id": 61,
+      "name": "Introduction"
+    },
+    {
+      "topic_id": 61,
+      "name": "Program vs Process vs Thread"
+    },
+    {
+      "topic_id": 61,
+      "name": "Concurrency vs Parallelism"
+    },
+    {
+      "topic_id": 61,
+      "name": "Cooperative vs Preemptive Multitasking"
+    },
+    {
+      "topic_id": 61,
+      "name": "Throughput vs Latency"
+    },
+    {
+      "topic_id": 61,
+      "name": "Synchronous vs Asynchronous"
+    },
+    {
+      "topic_id": 61,
+      "name": "I/O Bound vs CPU Bound"
+    },
+    {
+      "topic_id": 61,
+      "name": "Thread Safety"
+    },
+    {
+      "topic_id": 61,
+      "name": "Critical Section & Race Conditions"
+    },
+    {
+      "topic_id": 61,
+      "name": "Deadlock, Liveness & Reentrant Locks"
+    },
+    {
+      "topic_id": 61,
+      "name": "Mutex vs Semaphore"
+    },
+    {
+      "topic_id": 61,
+      "name": "Mutex vs Monitor"
+    },
+    {
+      "topic_id": 61,
+      "name": "Mesa vs Hoare Monitors"
+    },
+    {
+      "topic_id": 61,
+      "name": "Semaphore vs Monitor"
+    },
+    {
+      "topic_id": 61,
+      "name": "Global Interpreter Lock"
+    },
+    {
+      "topic_id": 61,
+      "name": "Global Interpreter Lock 2"
+    },
+    {
+      "topic_id": 61,
+      "name": "Amdahl's Law"
+    },
+    {
+      "topic_id": 61,
+      "name": "Moore's Law"
+    },
+    {
+      "topic_id": 62,
+      "name": "Creating Threads"
+    },
+    {
+      "topic_id": 62,
+      "name": "Subclassing Thread"
+    },
+    {
+      "topic_id": 62,
+      "name": "Daemon Thread"
+    },
+    {
+      "topic_id": 62,
+      "name": "Lock"
+    },
+    {
+      "topic_id": 62,
+      "name": "RLock"
+    },
+    {
+      "topic_id": 62,
+      "name": "Condition Variables"
+    },
+    {
+      "topic_id": 62,
+      "name": "Condition Variables II"
+    },
+    {
+      "topic_id": 62,
+      "name": "Condition Variables III"
+    },
+    {
+      "topic_id": 62,
+      "name": "Condition Variables IV"
+    },
+    {
+      "topic_id": 62,
+      "name": "Semaphores"
+    },
+    {
+      "topic_id": 62,
+      "name": "Events"
+    },
+    {
+      "topic_id": 62,
+      "name": "Timer"
+    },
+    {
+      "topic_id": 62,
+      "name": "Barrier"
+    },
+    {
+      "topic_id": 62,
+      "name": "With"
+    },
+    {
+      "topic_id": 62,
+      "name": "Quiz 1"
+    },
+    {
+      "topic_id": 62,
+      "name": "Quiz 2"
+    },
+    {
+      "topic_id": 63,
+      "name": "Introduction"
+    },
+    {
+      "topic_id": 63,
+      "name": "Process"
+    },
+    {
+      "topic_id": 63,
+      "name": "Fork"
+    },
+    {
+      "topic_id": 63,
+      "name": "Spawn"
+    },
+    {
+      "topic_id": 63,
+      "name": "Forkserver"
+    },
+    {
+      "topic_id": 63,
+      "name": "Queues & Pipes"
+    },
+    {
+      "topic_id": 63,
+      "name": "Sharing State"
+    },
+    {
+      "topic_id": 63,
+      "name": "Locks & Reentrant Lock"
+    },
+    {
+      "topic_id": 63,
+      "name": "Barrier, Semaphore, Condition Variable"
+    },
+    {
+      "topic_id": 63,
+      "name": "Pool"
+    },
+    {
+      "topic_id": 63,
+      "name": "Pool II"
+    },
+    {
+      "topic_id": 63,
+      "name": "Manager"
+    },
+    {
+      "topic_id": 63,
+      "name": "Manager II"
+    },
+    {
+      "topic_id": 63,
+      "name": "Manager III"
+    },
+    {
+      "topic_id": 63,
+      "name": "SyncManager"
+    },
+    {
+      "topic_id": 63,
+      "name": "Working with Managers"
+    },
+    {
+      "topic_id": 63,
+      "name": "Namespace"
+    },
+    {
+      "topic_id": 63,
+      "name": "Quiz 1"
+    },
+    {
+      "topic_id": 63,
+      "name": "Quiz 2"
+    },
+    {
+      "topic_id": 63,
+      "name": "Quiz 3"
+    },
+
+    {
+      "topic_id": 64,
+      "name": "Pool Executors"
+    },
+    {
+      "topic_id": 64,
+      "name": "Futures"
+    },
+    {
+      "topic_id": 64,
+      "name": "Miscellaneous Functions"
+    },
+    {
+      "topic_id": 65,
+      "name": "Introduction"
+    },
+    {
+      "topic_id": 65,
+      "name": "Iterables"
+    },
+    {
+      "topic_id": 65,
+      "name": "Yield"
+    },
+    {
+      "topic_id": 65,
+      "name": "Generator"
+    },
+    {
+      "topic_id": 65,
+      "name": "Send"
+    },
+    {
+      "topic_id": 65,
+      "name": "Sending and Receiving"
+    },
+    {
+      "topic_id": 65,
+      "name": "Sending and Receiving II"
+    },
+    {
+      "topic_id": 65,
+      "name": "Coroutine"
+    },
+    {
+      "topic_id": 65,
+      "name": "Coroutine II"
+    },
+    {
+      "topic_id": 65,
+      "name": "Event Loop"
+    },
+    {
+      "topic_id": 65,
+      "name": "Event Loop II"
+    },
+    {
+      "topic_id": 65,
+      "name": "Yield From"
+    },
+    {
+      "topic_id": 65,
+      "name": "Yield From II"
+    },
+    {
+      "topic_id": 65,
+      "name": "Generator Based Coroutines"
+    },
+    {
+      "topic_id": 65,
+      "name": "Generator Based Coroutines II"
+    },
+    {
+      "topic_id": 65,
+      "name": "Native Coroutines"
+    },
+    {
+      "topic_id": 65,
+      "name": "Native Coroutines II"
+    },
+    {
+      "topic_id": 65,
+      "name": "Mixing Native & Generator Based Coroutines"
+    },
+    {
+      "topic_id": 65,
+      "name": "Chaining Coroutines"
+    },
+    {
+      "topic_id": 65,
+      "name": "Future & Tasks"
+    },
+    {
+      "topic_id": 65,
+      "name": "Web Crawler Example"
+    },
+    {
+      "topic_id": 65,
+      "name": "Async Sleep Problem"
+    },
+    {
+      "topic_id": 65,
+      "name": "Chat Server Example"
+    },
+    {
+      "topic_id": 65,
+      "name": "Chat Server Example II"
+    },
+    {
+      "topic_id": 65,
+      "name": "Chat Server Example III"
+    },
+    {
+      "topic_id": 65,
+      "name": "Quiz"
+    },
+    {
+      "topic_id": 66,
+      "name": "Introduction"
+    },
+    {
+      "topic_id": 66,
+      "name": "Single Thread"
+    },
+    {
+      "topic_id": 66,
+      "name": "Multiple Threads"
+    },
+    {
+      "topic_id": 66,
+      "name": "Multiple Processors"
+    },
+    {
+      "topic_id": 66,
+      "name": "Asynchronous"
+    },
+    {
+      "topic_id": 66,
+      "name": "Asynchronous with Executors"
+    },
+    {
+      "topic_id": 67,
+      "name": "Blocking Queue | Bounded Buffer | Consumer Producer"
+    },
+    {
+      "topic_id": 67,
+      "name": "Non-Blocking Queue"
+    },
+    {
+      "topic_id": 67,
+      "name": "Rate Limiting Using Token Bucket Filter"
+    },
+    {
+      "topic_id": 67,
+      "name": "Rate Limiting Using Token Bucket Filter II"
+    },
+    {
+      "topic_id": 67,
+      "name": "Thread Safe Deferred Callback"
+    },
+    {
+      "topic_id": 67,
+      "name": "Implementing Semaphore"
+    },
+    {
+      "topic_id": 67,
+      "name": "Read Write Lock"
+    },
+    {
+      "topic_id": 67,
+      "name": "Unisex Bathroom Problem"
+    },
+    {
+      "topic_id": 67,
+      "name": "Implementing a Barrier"
+    },
+    {
+      "topic_id": 67,
+      "name": "Uber Ride Problem"
+    },
+    {
+      "topic_id": 67,
+      "name": "Dining Philosophers"
+    },
+    {
+      "topic_id": 67,
+      "name": "Barber Shop"
+    },
+    {
+      "topic_id": 67,
+      "name": "Asynchronous to Synchronous Problem"
+    },
+    {
+      "topic_id": 67,
+      "name": "Multithreaded Merge Sort"
+    },
+    {
+      "topic_id": 68,
+      "name": "Final Remarks"
+    },
+    {
+      "topic_id": 69,
+      "name": "What are Data Structures?"
+    },
+    {
+      "topic_id": 69,
+      "name": "Lists"
+    },
+    {
+      "topic_id": 69,
+      "name": "Common List Operations"
+    },
+    {
+      "topic_id": 69,
+      "name": "List Comprehension"
+    },
+    {
+      "topic_id": 69,
+      "name": "Tuples"
+    },
+    {
+      "topic_id": 69,
+      "name": "Dictionaries"
+    },
+    {
+      "topic_id": 69,
+      "name": "Dictionary Operations"
+    },
+    {
+      "topic_id": 69,
+      "name": "Sets"
+    },
+    {
+      "topic_id": 69,
+      "name": "Set Theory Operations"
+    },
+    {
+      "topic_id": 69,
+      "name": "Data Structure Conversions"
+    },
+    {
+      "topic_id": 69,
+      "name": "Quiz"
+    },
+    {
+      "topic_id": 69,
+      "name": "Exercise: From List to Tuple"
+    },
+    {
+      "topic_id": 69,
+      "name": "Exercise: Kth Maximum Integer in a List"
+    },
+    {
+      "topic_id": 69,
+      "name": "Exercise: Highs and Lows"
+    },
+    {
+      "topic_id": 70,
+      "name": "Stack"
+    },
+    {
+      "topic_id": 70,
+      "name": "Determine if Brackets are Balanced"
+    },
+    {
+      "topic_id": 70,
+      "name": "Reverse String"
+    },
+    {
+      "topic_id": 70,
+      "name": "Exercise: Convert Decimal Integer to Binary"
+    },
+    {
+      "topic_id": 70,
+      "name": "Quiz"
+    },
+    {
+      "topic_id": 71,
+      "name": "Introduction"
+    },
+    {
+      "topic_id": 71,
+      "name": "Insertion"
+    },
+    {
+      "topic_id": 71,
+      "name": "Deletion by Value"
+    },
+    {
+      "topic_id": 71,
+      "name": "Deletion by Position"
+    },
+    {
+      "topic_id": 71,
+      "name": "Length"
+    },
+    {
+      "topic_id": 71,
+      "name": "Node Swap"
+    },
+    {
+      "topic_id": 71,
+      "name": "Reverse"
+    },
+    {
+      "topic_id": 71,
+      "name": "Merge Two Sorted Linked Lists"
+    },
+    {
+      "topic_id": 71,
+      "name": "Remove Duplicates"
+    },
+    {
+      "topic_id": 71,
+      "name": "Nth-to-Last Node"
+    },
+    {
+      "topic_id": 71,
+      "name": "Count Occurrences"
+    },
+    {
+      "topic_id": 71,
+      "name": "Rotate"
+    },
+    {
+      "topic_id": 71,
+      "name": "Is Palindrome"
+    },
+    {
+      "topic_id": 71,
+      "name": "Exercise: Move Tail to Head"
+    },
+    {
+      "topic_id": 71,
+      "name": "Exercise: Sum Two Linked Lists"
+    },
+    {
+      "topic_id": 71,
+      "name": "Quiz"
+    },
+    {
+      "topic_id": 72,
+      "name": "Introduction and Insertion"
+    },
+    {
+      "topic_id": 72,
+      "name": "Remove Node"
+    },
+    {
+      "topic_id": 72,
+      "name": "Split Linked List into Two Halves"
+    },
+    {
+      "topic_id": 72,
+      "name": "Josephus Problem"
+    },
+    {
+      "topic_id": 72,
+      "name": "Exercise: Is Circular Linked List"
+    },
+    {
+      "topic_id": 72,
+      "name": "Quiz"
+    },
+    {
+      "topic_id": 73,
+      "name": "Append and Prepend"
+    },
+    {
+      "topic_id": 73,
+      "name": "Add Node Before/After"
+    },
+    {
+      "topic_id": 73,
+      "name": "Delete Node"
+    },
+    {
+      "topic_id": 73,
+      "name": "Reverse"
+    },
+    {
+      "topic_id": 73,
+      "name": "Exercise: Remove Duplicates"
+    },
+    {
+      "topic_id": 73,
+      "name": "Exercise: Pairs with Sums"
+    },
+    {
+      "topic_id": 73,
+      "name": "Quiz"
+    },
+    {
+      "topic_id": 74,
+      "name": "Array Advance Game"
+    },
+    {
+      "topic_id": 74,
+      "name": "Arbitrary Precision Increment"
+    },
+    {
+      "topic_id": 74,
+      "name": "Two Sum Problem"
+    },
+    {
+      "topic_id": 74,
+      "name": "Optimal Task Assignment"
+    },
+    {
+      "topic_id": 74,
+      "name": "Intersection of Two Sorted Arrays"
+    },
+    {
+      "topic_id": 74,
+      "name": "Exercise: Buy and Sell Stock"
+    },
+    {
+      "topic_id": 75,
+      "name": "Introduction"
+    },
+    {
+      "topic_id": 75,
+      "name": "Traversal Algorithms"
+    },
+    {
+      "topic_id": 75,
+      "name": "Level-Order Traversal"
+    },
+    {
+      "topic_id": 75,
+      "name": "Reverse Level-Order Traversal"
+    },
+    {
+      "topic_id": 75,
+      "name": "Calculating the Height of a Binary Tree"
+    },
+    {
+      "topic_id": 75,
+      "name": "Exercise: Calculating the Size of a Tree"
+    },
+    {
+      "topic_id": 75,
+      "name": "Quiz"
+    },
+    {
+      "topic_id": 76,
+      "name": "Introduction - Insertion and Search"
+    },
+    {
+      "topic_id": 76,
+      "name": "Exercise: Checking the BST property"
+    },
+    {
+      "topic_id": 76,
+      "name": "Quiz"
+    },
+    {
+      "topic_id": 77,
+      "name": "Binary Search"
+    },
+    {
+      "topic_id": 77,
+      "name": "Find the Closest Number"
+    },
+    {
+      "topic_id": 77,
+      "name": "Find Fixed Number"
+    },
+    {
+      "topic_id": 77,
+      "name": "Find Bitonic Peak"
+    },
+    {
+      "topic_id": 77,
+      "name": "Find First Entry in List with Duplicates"
+    },
+    {
+      "topic_id": 77,
+      "name": "Python's Bisect Method"
+    },
+    {
+      "topic_id": 77,
+      "name": "Exercise: Integer Square Root"
+    },
+    {
+      "topic_id": 77,
+      "name": "Exercise: Cyclically Shifted Array"
+    },
+    {
+      "topic_id": 77,
+      "name": "Quiz"
+    },
+    {
+      "topic_id": 78,
+      "name": "Find Uppercase Letter in String"
+    },
+    {
+      "topic_id": 78,
+      "name": "Calculate String Length"
+    },
+    {
+      "topic_id": 78,
+      "name": "Count Consonants in String"
+    },
+    {
+      "topic_id": 78,
+      "name": "Exercise: Product of Two Positive Integers"
+    },
+    {
+      "topic_id": 78,
+      "name": "Quiz"
+    },
+    {
+      "topic_id": 79,
+      "name": "Look-and-Say Sequence"
+    },
+    {
+      "topic_id": 79,
+      "name": "Spreadsheet Encoding"
+    },
+    {
+      "topic_id": 79,
+      "name": "Is Palindrome"
+    },
+    {
+      "topic_id": 79,
+      "name": "Is Anagram"
+    },
+    {
+      "topic_id": 79,
+      "name": "Is Palindrome Permutation"
+    },
+    {
+      "topic_id": 79,
+      "name": "Check Permutation"
+    },
+    {
+      "topic_id": 79,
+      "name": "Exercise: Is Unique"
+    },
+    {
+      "topic_id": 79,
+      "name": "Integer to String"
+    },
+    {
+      "topic_id": 79,
+      "name": "Exercise: String to Integer"
+    },
+    {
+      "topic_id": 80,
+      "name": "Final Remarks"
+    }
+
+
+  ]
+}
