@@ -18,7 +18,7 @@ class ResetTokens extends Migration
                 'unsigned' => true,
                 'auto_increment' => true,
             ],
-            'doctor_id' => [
+            'user_id' => [
                 'type' => 'INT',
                 'constraint' => 11,
                 'unsigned' => true,
@@ -41,7 +41,7 @@ class ResetTokens extends Migration
         ]);
 
         $this->forge->addKey('id', true);
-        $this->forge->addForeignKey('doctor_id', 'tbl_doctors', 'id', 'CASCADE', 'CASCADE');
+        $this->forge->addForeignKey('user_id', 'tbl_users', 'id', 'CASCADE', 'CASCADE');
         $this->forge->createTable('tbl_reset_tokens', true);
 
         // Enable foreign key checks after creating the table

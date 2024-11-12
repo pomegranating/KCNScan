@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class UserOtp extends Migration
+class CreateUserOtpTable extends Migration
 {
     public function up()
     {
@@ -16,7 +16,7 @@ class UserOtp extends Migration
                 'unsigned' => true,
                 'auto_increment' => true,
             ],
-            'doctor_id' => [
+            'user_id' => [
                 'type' => 'INT',
                 'constraint' => 11,
                 'unsigned' => true,
@@ -42,7 +42,7 @@ class UserOtp extends Migration
         ]);
 
         $this->forge->addKey('id', true);
-        $this->forge->addForeignKey('doctor_id', 'tbl_doctors', 'id', 'CASCADE', 'CASCADE');
+        $this->forge->addForeignKey('user_id', 'tbl_users', 'id', 'CASCADE', 'CASCADE');
         $this->forge->createTable('tbl_user_otp', true);
         $this->db->enableForeignKeyChecks();
     }
