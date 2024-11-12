@@ -36,7 +36,7 @@ class AdminDashboardController extends BaseController
 
         $user = $userModel->find($sessionData['userInfo']['id']);
 
-        $data = array_merge($sessionData, ['user' => $user], ['packages' => $this->fetch_packages()]);
+        $data = array_merge($sessionData, ['user' => $user]);
 
         return view("App\Modules\AdminDashboard\Views\header", $data) .
             view("App\Modules\AdminDashboard\Views\sidebar", $data) .
@@ -68,44 +68,44 @@ class AdminDashboardController extends BaseController
         return ['isLoggedIn' => false, 'isLocked' => false,];
     }
 
-    /**
-     * Fetch packages
-     * @return array
-     */
-    public function fetch_packages(): array
-    {
-        $packagesModel = new CourseCorrectPackagesModel();
-        $packages = $packagesModel->findAll();
-        return ['packages' => $packages];
-    }
+    // /**
+    //  * Fetch packages
+    //  * @return array
+    //  */
+    // public function fetch_packages(): array
+    // {
+    //     $packagesModel = new CourseCorrectPackagesModel();
+    //     $packages = $packagesModel->findAll();
+    //     return ['packages' => $packages];
+    // }
 
-    /**
-     * Fetch topics and subtopics
-     * @return ResponseInterface
-     */
-    public function fetch_topics_and_subtopics(): ResponseInterface
-    {
-        $moduleId = $this->request->getPost('module_id');
-        $topicsModel = new TopicsModel();
-        $subTopicsModel = new SubTopicsModel();
-        $moduleTopics = $topicsModel->where('module_id', $moduleId)->findAll();
-        foreach ($moduleTopics as &$topic) {
-            $topic['sub_topics'] = $subTopicsModel->where('topic_id', $topic['id'])->findAll();
-        }
-        return $this->response->setStatusCode(ResponseInterface::HTTP_OK)->setJSON(['module_topics' => $moduleTopics]);
-    }
+    // /**
+    //  * Fetch topics and subtopics
+    //  * @return ResponseInterface
+    //  */
+    // public function fetch_topics_and_subtopics(): ResponseInterface
+    // {
+    //     $moduleId = $this->request->getPost('module_id');
+    //     $topicsModel = new TopicsModel();
+    //     $subTopicsModel = new SubTopicsModel();
+    //     $moduleTopics = $topicsModel->where('module_id', $moduleId)->findAll();
+    //     foreach ($moduleTopics as &$topic) {
+    //         $topic['sub_topics'] = $subTopicsModel->where('topic_id', $topic['id'])->findAll();
+    //     }
+    //     return $this->response->setStatusCode(ResponseInterface::HTTP_OK)->setJSON(['module_topics' => $moduleTopics]);
+    // }
 
-    /**
-     * Fetch modules
-     * @return ResponseInterface
-     */
-    public function fetch_modules(): ResponseInterface
-    {
-        $packageId = $this->request->getPost('package_id');
-        $modulesModel = new ModulesModel();
-        $modules = $modulesModel->where('coursecorrect_package_id', $packageId)->findAll();
-        return $this->response->setStatusCode(ResponseInterface::HTTP_OK)->setJSON(['modules' => $modules]);
-    }
+    // /**
+    //  * Fetch modules
+    //  * @return ResponseInterface
+    //  */
+    // public function fetch_modules(): ResponseInterface
+    // {
+    //     $packageId = $this->request->getPost('package_id');
+    //     $modulesModel = new ModulesModel();
+    //     $modules = $modulesModel->where('coursecorrect_package_id', $packageId)->findAll();
+    //     return $this->response->setStatusCode(ResponseInterface::HTTP_OK)->setJSON(['modules' => $modules]);
+    // }
 
     /**
      * Display the user profile.
@@ -197,7 +197,6 @@ class AdminDashboardController extends BaseController
             'countries' => $countriesModel->findAll(),
             'counties' => $countiesModel->findAll(),
             'sub_counties' => $subCountiesModel->findAll(),
-            'packages' => $this->fetch_packages(),
             'insurance_details' => $insuranceDetailsModel->where('user_id', $sessionData['userInfo']['id'])->first(),
             'emergency_contact_details' => $emergencyContactModel->where('user_id', $sessionData['userInfo']['id'])->first(),
         ];
@@ -581,7 +580,7 @@ class AdminDashboardController extends BaseController
         }
         $user = $userModel->find($sessionData['userInfo']['id']);
 
-        $data = array_merge($sessionData, ['user' => $user], ['packages' => $this->fetch_packages()]);
+        $data = array_merge($sessionData, ['user' => $user]);
         return view("App\Modules\AdminDashboard\Views\header", $data) .
             view("App\Modules\AdminDashboard\Views\sidebar", $data) .
             view("App\Modules\AdminDashboard\Views\Topbar", $data) .
@@ -728,126 +727,126 @@ class AdminDashboardController extends BaseController
      * @return ResponseInterface
      * @throws Exception
      */
-    public function subscribe_to_news_letter(): ResponseInterface
-    {
-        try {
-            $email = $this->request->getPost('email');
+    // public function subscribe_to_news_letter(): ResponseInterface
+    // {
+    //     try {
+    //         $email = $this->request->getPost('email');
 
-            if (empty($email)) {
-                throw new Exception('Email address is required');
-            }
+    //         if (empty($email)) {
+    //             throw new Exception('Email address is required');
+    //         }
 
-            $userModel = new UserModel();
-            $newsLetterSubscribersModel = new NewsLetterSubscribersModel();
+    //         $userModel = new UserModel();
+    //         $newsLetterSubscribersModel = new NewsLetterSubscribersModel();
 
-            $user = $userModel->where('primary_email_address', $email)->first();
+    //         $user = $userModel->where('primary_email_address', $email)->first();
 
-            if ($user) {
-                if ($user['newsletter'] == 1) {
-                    throw new Exception('You are already subscribed to the newsletter');
-                }
+    //         if ($user) {
+    //             if ($user['newsletter'] == 1) {
+    //                 throw new Exception('You are already subscribed to the newsletter');
+    //             }
 
-                $userModel->update($user['id'], ['newsletter' => 1]);
+    //             $userModel->update($user['id'], ['newsletter' => 1]);
 
-                return $this->response->setStatusCode(ResponseInterface::HTTP_OK)->setJSON(['status' => 'success', 'message' => 'You have subscribed to the newsletter.']);
-            } else {
-                $existingSubscriber = $newsLetterSubscribersModel->where('email', $email)->first();
+    //             return $this->response->setStatusCode(ResponseInterface::HTTP_OK)->setJSON(['status' => 'success', 'message' => 'You have subscribed to the newsletter.']);
+    //         } else {
+    //             $existingSubscriber = $newsLetterSubscribersModel->where('email', $email)->first();
 
-                if ($existingSubscriber) {
-                    throw new Exception('You are already subscribed to the newsletter');
-                }
-                $newsLetterSubscribersModel->insert(['email' => $email]);
+    //             if ($existingSubscriber) {
+    //                 throw new Exception('You are already subscribed to the newsletter');
+    //             }
+    //             $newsLetterSubscribersModel->insert(['email' => $email]);
 
-                return $this->response->setStatusCode(ResponseInterface::HTTP_OK)->setJSON(['status' => 'success', 'message' => 'You have been added to newsletter subscribers.']);
-            }
-        } catch (Exception $e) {
-            return $this->response->setStatusCode(ResponseInterface::HTTP_INTERNAL_SERVER_ERROR)->setJSON(['status' => 'error', 'message' => $e->getMessage()]);
-        }
-    }
+    //             return $this->response->setStatusCode(ResponseInterface::HTTP_OK)->setJSON(['status' => 'success', 'message' => 'You have been added to newsletter subscribers.']);
+    //         }
+    //     } catch (Exception $e) {
+    //         return $this->response->setStatusCode(ResponseInterface::HTTP_INTERNAL_SERVER_ERROR)->setJSON(['status' => 'error', 'message' => $e->getMessage()]);
+    //     }
+    // }
 
-    /**
-     * Unsubscribe to newsletter
-     * @return ResponseInterface
-     * @throws Exception
-     */
-    public function unsubscribe_to_news_letter(): ResponseInterface
-    {
-        try {
-            $requestData = $this->request->getJSON();
-            $email = $requestData->email;
+    // /**
+    //  * Unsubscribe to newsletter
+    //  * @return ResponseInterface
+    //  * @throws Exception
+    //  */
+    // public function unsubscribe_to_news_letter(): ResponseInterface
+    // {
+    //     try {
+    //         $requestData = $this->request->getJSON();
+    //         $email = $requestData->email;
 
-            if (empty($email)) {
-                throw new Exception('Email address is required');
-            }
+    //         if (empty($email)) {
+    //             throw new Exception('Email address is required');
+    //         }
 
-            $userModel = new UserModel();
-            $newsLetterSubscribersModel = new NewsLetterSubscribersModel();
+    //         $userModel = new UserModel();
+    //         $newsLetterSubscribersModel = new NewsLetterSubscribersModel();
 
-            $user = $userModel->where('primary_email_address', $email)->first();
+    //         $user = $userModel->where('primary_email_address', $email)->first();
 
-            if ($user) {
-                if ($user['newsletter'] == 0) {
-                    throw new Exception('You are already unsubscribed from the newsletter');
-                }
+    //         if ($user) {
+    //             if ($user['newsletter'] == 0) {
+    //                 throw new Exception('You are already unsubscribed from the newsletter');
+    //             }
 
-                $userModel->update($user['id'], ['newsletter' => 0]);
+    //             $userModel->update($user['id'], ['newsletter' => 0]);
 
-                return $this->response->setStatusCode(ResponseInterface::HTTP_OK)
-                    ->setJSON(['status' => 'success', 'message' => 'You have unsubscribed from the newsletter.']);
-            } else {
-                $existingSubscriber = $newsLetterSubscribersModel->where('email', $email)->first();
+    //             return $this->response->setStatusCode(ResponseInterface::HTTP_OK)
+    //                 ->setJSON(['status' => 'success', 'message' => 'You have unsubscribed from the newsletter.']);
+    //         } else {
+    //             $existingSubscriber = $newsLetterSubscribersModel->where('email', $email)->first();
 
-                if (!$existingSubscriber) {
-                    throw new Exception('You are not subscribed to the newsletter');
-                }
+    //             if (!$existingSubscriber) {
+    //                 throw new Exception('You are not subscribed to the newsletter');
+    //             }
 
-                $newsLetterSubscribersModel->where('email', $email)->delete();
+    //             $newsLetterSubscribersModel->where('email', $email)->delete();
 
-                return $this->response->setStatusCode(ResponseInterface::HTTP_OK)
-                    ->setJSON(['status' => 'success', 'message' => 'You have been removed from newsletter subscribers.']);
-            }
-        } catch (Exception $e) {
-            return $this->response->setStatusCode(ResponseInterface::HTTP_INTERNAL_SERVER_ERROR)
-                ->setJSON(['status' => 'error', 'message' => $e->getMessage()]);
-        }
-    }
+    //             return $this->response->setStatusCode(ResponseInterface::HTTP_OK)
+    //                 ->setJSON(['status' => 'success', 'message' => 'You have been removed from newsletter subscribers.']);
+    //         }
+    //     } catch (Exception $e) {
+    //         return $this->response->setStatusCode(ResponseInterface::HTTP_INTERNAL_SERVER_ERROR)
+    //             ->setJSON(['status' => 'error', 'message' => $e->getMessage()]);
+    //     }
+    // }
 
-    /**
-     * Newsletter page
-     * @return RedirectResponse|string
-     */
-    public function newsletter()
-    {
-        $sessionData = $this->getSessionData();
-        $userModel = new UserModel();
-        if ($sessionData['isLoggedIn'] && $sessionData['isLocked']) {
-            return redirect()->to(base_url('authentication/lock_screen'));
-        } elseif (!$sessionData['isLoggedIn']) {
-            return redirect()->to(base_url('authentication/sign_in'));
-        }
-        $user = $userModel->find($sessionData['userInfo']['id']);
-        $data = array_merge($sessionData, ['user' => $user], ['packages' => $this->fetch_packages()]);
-        return view("App\Modules\AdminDashboard\Views\header", $data) .
-            view("App\Modules\AdminDashboard\Views\sidebar", $data) .
-            view("App\Modules\AdminDashboard\Views\Topbar", $data) .
-            view("App\Modules\AdminDashboard\Views\Newsletter", $data) .
-            view("App\Modules\AdminDashboard\Views\Footer", $data);
-    }
-    public function edit_newsletter()
-    {
-        $sessionData = $this->getSessionData();
-        $userModel = new UserModel();
-        if ($sessionData['isLoggedIn'] && $sessionData['isLocked']) {
-            return redirect()->to(base_url('authentication/lock_screen'));
-        } elseif (!$sessionData['isLoggedIn']) {
-            return redirect()->to(base_url('authentication/sign_in'));
-        }
-        $user = $userModel->find($sessionData['userInfo']['id']);
-        $data = array_merge($sessionData, ['user' => $user], ['packages' => $this->fetch_packages()]);
-        return view("App\Modules\AdminDashboard\Views\header", $data) .
-            view("App\Modules\AdminDashboard\Views\sidebar", $data) .
-            view("App\Modules\AdminDashboard\Views\Topbar", $data) .
-            view("App\Modules\AdminDashboard\Views\Edit_newsletter", $data) .
-            view("App\Modules\AdminDashboard\Views\Footer", $data);
-    }
+    // /**
+    //  * Newsletter page
+    //  * @return RedirectResponse|string
+    //  */
+    // public function newsletter()
+    // {
+    //     $sessionData = $this->getSessionData();
+    //     $userModel = new UserModel();
+    //     if ($sessionData['isLoggedIn'] && $sessionData['isLocked']) {
+    //         return redirect()->to(base_url('authentication/lock_screen'));
+    //     } elseif (!$sessionData['isLoggedIn']) {
+    //         return redirect()->to(base_url('authentication/sign_in'));
+    //     }
+    //     $user = $userModel->find($sessionData['userInfo']['id']);
+    //     $data = array_merge($sessionData, ['user' => $user], ['packages' => $this->fetch_packages()]);
+    //     return view("App\Modules\AdminDashboard\Views\header", $data) .
+    //         view("App\Modules\AdminDashboard\Views\sidebar", $data) .
+    //         view("App\Modules\AdminDashboard\Views\Topbar", $data) .
+    //         view("App\Modules\AdminDashboard\Views\Newsletter", $data) .
+    //         view("App\Modules\AdminDashboard\Views\Footer", $data);
+    // }
+    // public function edit_newsletter()
+    // {
+    //     $sessionData = $this->getSessionData();
+    //     $userModel = new UserModel();
+    //     if ($sessionData['isLoggedIn'] && $sessionData['isLocked']) {
+    //         return redirect()->to(base_url('authentication/lock_screen'));
+    //     } elseif (!$sessionData['isLoggedIn']) {
+    //         return redirect()->to(base_url('authentication/sign_in'));
+    //     }
+    //     $user = $userModel->find($sessionData['userInfo']['id']);
+    //     $data = array_merge($sessionData, ['user' => $user], ['packages' => $this->fetch_packages()]);
+    //     return view("App\Modules\AdminDashboard\Views\header", $data) .
+    //         view("App\Modules\AdminDashboard\Views\sidebar", $data) .
+    //         view("App\Modules\AdminDashboard\Views\Topbar", $data) .
+    //         view("App\Modules\AdminDashboard\Views\Edit_newsletter", $data) .
+    //         view("App\Modules\AdminDashboard\Views\Footer", $data);
+    // }
 }

@@ -10,7 +10,7 @@ class UserOtpSeeder extends Seeder
     {
         $data = [
             [
-                'doctor_id' => 1,
+                'user_id' => 1,
                 'otp_code' => '123456',
                 'expiry_time' => date('Y-m-d H:i:s', strtotime('+1 hour')),
                 'created_at' => date('Y-m-d H:i:s'),
